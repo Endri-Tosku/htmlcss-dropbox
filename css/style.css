@@ -1,5 +1,59 @@
 * {
-    width: 0;
-    height: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+
+.container-header {
+    height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p {
+    display: flex;
+    list-style: none;
+}
+
+.padding {
+    padding-left: 30px;
+}
+
+.padding2 {
+    padding-right: 30px;
+}
+
+.button {
+    padding: 5px 10px;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+.container-footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b {
+    list-style: none;
 }

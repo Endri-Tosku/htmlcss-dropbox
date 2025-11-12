@@ -46,14 +46,24 @@ footer {
 .container-footer {
     max-width: 900px;
     margin: 0 auto;
-    padding: 50px 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 50px 0;
+
 }
 
 .b {
     list-style: none;
+    padding-top: 20px;
+}
+
+.padding-footer {
+    padding-bottom: 10px ;
+}
+
+.grey {
+    color: grey;
 }

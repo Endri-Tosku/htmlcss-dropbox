@@ -199,10 +199,32 @@ h2 {
     width: 25%;
 }
 
-.p {
+.p-card {
     padding-top: 30px;
 }
 
+.container-partner {
+    display: flex;
+    gap: 40px;
+    margin: 100px 0;
+}
+
+.img-partner {
+    width: 60%;
+}
+
+.text-partner {
+    width: 30%;
+}
+
+.container-button-partner {
+    margin-top: 50px;
+}
+
+.button-partner {
+    padding: 5px 10px;
+    border: 1px solid;
+}
 
 
 

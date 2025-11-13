@@ -16,6 +16,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1000;
 }
 
 .container-header {
@@ -87,17 +88,16 @@ h1 {
     display: flex;
 }
 
-.text {
-    width: 30%;
-}
-
 .container-img {
-    width: 70%;
-
+    position: relative;
+    right: -80px;
+    z-index: 1;
+    top: 55px;
 }
 
 .jumbo {
-    width: 100%;
+    width: 600px;
+    max-width: none;
 }
 
 .hero-button {
@@ -180,7 +180,6 @@ h2 {
     margin-top: 15px;
     display: flex;
     justify-content: center;
-    /* margin: 10px; */
     margin-bottom: 20px;
     padding: 10px;
 }

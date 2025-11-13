@@ -226,7 +226,13 @@ h2 {
     border: 1px solid;
 }
 
+.img-operazioni {
+    width: 100%;
+}
 
+.no-border {
+    border-style: none;
+}
 
 
 

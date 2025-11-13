@@ -8,6 +8,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -41,9 +45,21 @@ header {
 }
 
 .blue {
-    background-color: blue;
+    background-color: #0000ff;
     color: white;
 
+}
+
+.blue:hover {
+    background-color: #0033cc;
+}
+
+.white {
+    background-color: white;
+}
+
+.white:hover {
+    background-color: lightgray;
 }
 
 .container-main {
@@ -52,7 +68,7 @@ header {
 }
 
 .hero {
-    background-color: aqua;
+    background-color: #B5D2E9;
 }
 
 .container-hero {
